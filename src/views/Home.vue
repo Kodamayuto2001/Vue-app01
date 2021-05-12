@@ -5,9 +5,9 @@
 </template>
 <script>
 export default {
-    data: () => {
+    data: () => ({
         selected:[2],
-        item:[
+        items:[
             {
             avatar: 'https://cdn.vuetifyjs.com/images/lists/1.jpg',
             subtitle: `I'll be in your neighborhood doing errands this weekend. Do you want to hang out?`,
@@ -49,20 +49,8 @@ export default {
             title: 'Sandra ',
             },
         ],
-        files: [
-            { text: 'Landing_page.zip', icon: ' mdi-cloud-upload' },
-            { text: 'Requirements.pdf', icon: ' mdi-cloud-upload' },
-            { text: 'Uwagi.docx', icon: ' mdi-cloud-upload' },
-        ],
-        panel: [2],
-    
-        password: 'Password',
-        show: false,
-        message: 'Type a message here',
-        marker: true,
-        iconIndex: 0,
-
-    }
+        
+    })
 }
 </script>
 
